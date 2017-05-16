@@ -2,8 +2,47 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    >
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvNaslov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="Workouts"
+        android:textSize="50dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bEdit"
+        android:layout_height="30dp"
+        android:layout_width="70dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="25dp"
+        android:text="Edit"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent" />
+<ListView
+    android:id="@+id/lvSet"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    android:layout_marginBottom="40dp" />
+    <Button
+        android:id ="@+id/bAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/yellow"
+        android:background="@drawable/round_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
 
 
 </RelativeLayout>
